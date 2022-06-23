@@ -11,6 +11,10 @@ body{
     height: 100vh;
     
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f78b2af2859bac03c4bf1165e1c11225bcd1f8d7
 header{
     display: flex;
     justify-content: space-between;
@@ -18,11 +22,16 @@ header{
     padding: 12px 0px;
     position: fixed;
     width: 100%;
+<<<<<<< HEAD
     z-index: 5;
+=======
+
+>>>>>>> f78b2af2859bac03c4bf1165e1c11225bcd1f8d7
 }
 
 
 .logo{
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     padding: 5px 15px;
@@ -270,6 +279,226 @@ header{
 }
 
 .main-footer{
+=======
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.logo-p {
+    height: 30px;
+    margin: 0px 5px 0px 15px;
+}
+
+.bottom-1{
+    height: 12px;
+    margin-bottom: 5px;
+    
+}
+
+.logo a{
+    padding: 12px;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 400;
+}
+.inicio{
+    color: #ffffff;
+    background-color: black;
+    border-radius: 30px;
+    padding: 18px;
+}
+.hoy{
+    color: black;
+}
+.crear{
+    color: black;
+}
+
+
+.main-input{
+    min-width: 0;
+    max-height: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    
+}
+
+.main-input-contenido{
+    
+    width: 100%;
+    margin: auto;
+    border-radius: 60px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-input-contenido:hover{
+    background-color: rgb(214, 214, 214);
+    
+}
+.main-input-contenido input:hover{
+    background-color: rgb(214, 214, 214);
+    
+}
+
+.main-input input{
+    
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    outline: none;
+    padding: 18px 3px;
+    border-radius: 60px;
+
+
+}
+
+
+.main-input .icono-buscar{
+    background-image: url(img/buscar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+
+.main-nav{
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.main-nav button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.main-nav button a{
+    color: #222222;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.main-nav a {
+    padding: 13px;
+    margin: 5px 0px 0px 0px;
+    
+}
+
+.main-nav a:hover{
+    background-color: #3a3a3a15;
+    padding: 13px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 50px;
+}
+
+.main-nav img{
+    height: 25px;
+}
+
+.main-nav .bottom-2 img{
+    height: 15px;
+}
+
+
+
+.row{
+    padding: 70px 80px ;
+>>>>>>> f78b2af2859bac03c4bf1165e1c11225bcd1f8d7
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    padding: 12px 20px 15px 0px;
+    border-bottom: 1px solid #ebebeb;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> f78b2af2859bac03c4bf1165e1c11225bcd1f8d7
+}
+
+.footer-question{
+    background-color: #ffffff;
+    padding: 1%;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px #22222222;
+    
+}
+
+
+.column-1{
+    display: block;
+    flex: 1fr;
+    padding: 5px;
+    
+<<<<<<< HEAD
+=======
+}
+.column-2{
+    display: block;
+    flex: 1fr;
+    padding: 5px;
+    
+}
+.column-3{
+    display: block;
+    flex: 1fr;
+    padding: 5px;
+    
+}
+.column-4{
+    display: block;
+    flex: 1fr;
+    padding: 5x;
+    
+}
+.column-5{
+    display: block;
+    flex: 1fr;
+    padding: 5px;
+    
+}
+.column-6{
+    display: block;
+    flex: 1fr;
+    padding: 10px;
+    
+}
+.column-7{
+    display: block;
+    flex: 1fr;
+    padding: 5px;
+    
+}
+
+.row img{
+    border-radius: 45px;
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.main-footer{
     display: flex;
     justify-content: flex-end;
     background-color: transparent;
@@ -291,6 +520,7 @@ header{
 }
 
     
+>>>>>>> f78b2af2859bac03c4bf1165e1c11225bcd1f8d7
 .footer-question img{
     height: 25px;
 }
@@ -298,6 +528,7 @@ header{
     
 
 
+<<<<<<< HEAD
 @media (min-width: 100px) and (max-width: 450px){
 
     .inicio span{
@@ -338,6 +569,125 @@ header{
       }
   }
   
+=======
+@media (min-width: 100px) and (max-width: 590px){
+    
+    /**/.column-2 {
+      display: none;
+    }
+    .column-3 {
+        display: none;
+      }
+      .column-4 {
+        display: none;
+      }
+      .column-5 {
+        display: none;
+      }
+      .column-6 {
+        display: none;
+      }
+      .column-7 {
+        display: none;
+      }
+      .hoy {
+        display: none;
+      }
+      .crear {
+        display: none;
+      }
+      .main-input-contenido {
+        display: none;
+      }
+      .row{
+        padding: 35px 40px ;
+        display: block;
+        box-sizing: border-box;
+        
+        
+    }
+  }
+
+  @media (min-width: 590px) and (max-width: 750px){
+    
+    .column-3 {
+        display: none;
+      }
+      .column-4 {
+        display: none;
+      }
+      .column-5 {
+        display: none;
+      }
+      .column-6 {
+        display: none;
+      }
+      .column-7 {
+        display: none;
+      }
+      .hoy {
+        display: none;
+      }
+      .crear {
+        display: none;
+      }
+      
+  }
+  @media (min-width: 750px) and (max-width: 950px){
+    
+      .column-4 {
+        display: none;
+      }
+      .column-5 {
+        display: none;
+      }
+      .column-6 {
+        display: none;
+      }
+      .column-7 {
+        display: none;
+      }
+      
+  }
+
+  @media (min-width: 950px) and (max-width: 1300px){
+    
+    
+    .column-5 {
+      display: none;
+    }
+    .column-6 {
+      display: none;
+    }
+    .column-7 {
+      display: none;
+    }
+    
+}
+@media (min-width: 1300px) and (max-width: 1650px){
+    
+    
+    
+    .column-6 {
+      display: none;
+    }
+    .column-7 {
+      display: none;
+    }
+    
+}
+@media (min-width: 1650px) and (max-width: 2050px){
+    
+    .column-7 {
+      display: none;
+    }
+    
+}
+
+
+
+   
+>>>>>>> f78b2af2859bac03c4bf1165e1c11225bcd1f8d7
    
    
    

@@ -1,0 +1,24 @@
+.grid-container{    
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+    position: sticky;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    gap: 15px;
+    justify-content: center;
+    margin: 0 auto;
+}
+    
+.grid-item{
+    width: 230px;
+    border: transparent;
+    border-radius: 10% 10% 10% 10%;
+    margin-bottom: 35px;
+    cursor:zoom-in;
+    background-color: gold;
+    object-fit: cover;
+}  
+.grid-item:hover{
+    filter: opacity(0.9);
+}    
